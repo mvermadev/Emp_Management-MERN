@@ -1,0 +1,20 @@
+.Header{
+    background-color: #06b0ff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+
+}
+.Header p{
+    font-size: 20px;
+    padding-left: 10px;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.Header .btn{
+    color: #fff;
+    font-size: 18px;
+}

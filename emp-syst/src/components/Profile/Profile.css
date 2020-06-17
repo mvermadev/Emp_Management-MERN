@@ -1,0 +1,119 @@
+.headEmpRegis{
+    background-color: rgb(234, 255, 236);
+}
+
+.EmpRegis{
+    position: relative;
+    top: 15px;
+    box-shadow: 0px 0px 10px grey;
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    border-radius: 7px;
+    margin: 0px 15px;
+}
+
+.headProfile{
+    background-color: rgb(255, 238, 191);
+    height: 100vh;
+}
+
+.EditProfile{
+    background-color: #ffffff;
+    width: 75vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    position: relative;
+    top: 20%;
+    box-shadow: 1px 1px 10px silver;
+    border-radius: 10px;
+}
+
+
+@media only screen and (min-width: 500px)
+{
+ 
+
+    .EmpRegis{
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        width: 40vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+
+/* Emp Profile */
+
+.profileImg{
+    background-color: rgb(84, 170, 4);
+    padding-bottom: 10px;
+    color: #ffffff;
+}
+
+.profileImg img{
+    width: 40%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.partnerDetails{
+    background-color: rgb(235, 255, 243);
+}
+
+.partnerDetails .detail {
+    border-radius: 7px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    line-height: 10px;
+    padding: 5px;
+    box-shadow: 0px 0px 5px silver;
+    border-top: 2px solid rgba(134, 134, 134, 0.993);
+    margin: 10px;
+}
+
+.partnerDetails .detail p{
+    padding: 5px;
+}
+
+.partnerDetails .detail p:first-child{
+    border-bottom: 1px solid gray;
+    opacity: 0.7;
+    font-style: italic;
+}
+
+.partnerDetails .detail p:nth-child(2){
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 5px;
+}
+
+@media only screen and (min-width: 500px)
+{
+    /* editProfile.js */
+    .EditProfile{
+        width: 25vw;
+    }
+
+   /* partnerProfile.js */
+    .profileImg img{
+        width: 8%;
+    }
+
+    .partnerDetails {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+
+    .partnerDetails .detail {
+        width: 30vw;
+    }
+
+}
