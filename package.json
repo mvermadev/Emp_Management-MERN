@@ -14,7 +14,7 @@
     "express": "^4.17.1",
     "mongodb": "^3.5.9",
     "mongoose": "^5.9.19",
-    "nodemailer": "^6.4.8",
+    "nodemailer": "^6.4.16",
     "random-number": "0.0.9"
   }
 }
